@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   $('body').scrollspy({
     target: "#mainnavbar",
-    offset: 50
+    offset: 150
   }); //scroll spy özelliği
 
   $("#navbarColor01 a").on('click', function (event) { //smoot scroll
